@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans&display=swap');
+
+body{
+    font-family: 'Roboto Mono', monospace;
+    background: rgb(108, 108, 253);
+}
+
+.header_div{
+    background: white;
+    color: purple;
+}
+
+.header_div p{
+    font-family: 'Smooch Sans', sans-serif;
+    color: grey;
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: bold;                        
+}
+
+.main_div button{
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 30px;
+    width: 130px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
+
+.copyright_footer{
+    position: fixed;
+    color: cornflowerblue;
+    bottom: 0%;
+    text-align: center;
+    line-height: 3;
+    font-size: 18px;
+    width: 100%;
+    background-color: white;
+    text-shadow: 5px 5px 5px;
+}
